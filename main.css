@@ -45,8 +45,13 @@
   font-size: 2rem;
 }
 
-#cardss {
+.cardss {
+  position: relative;
   background: url(../images/p1.jpg);
-  background-size: cover;
+  min-height: 200px;
+}
+
+.cardss i.fab {
+  color: rgba(228, 38, 38, 0.973);
 }
 /*# sourceMappingURL=main.css.map */
