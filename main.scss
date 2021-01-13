@@ -55,8 +55,13 @@
   position: relative;
   background: url(../images/p1.jpg);
   min-height: 200px;
+  margin-left: 16px;
+  margin-right: 16px;
 
   i.fab {
     color: rgba(228, 38, 38, 0.973);
+  }
+  h1{
+    font-family: fantasy !important;
   }
 }
