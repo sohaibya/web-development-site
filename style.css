@@ -1,26 +1,52 @@
 .navbar {
-  background: #272a31; }
-  .navbar .navbar-nav {
-    margin-right: 100px; }
-    .navbar .navbar-nav a {
-      padding-right: 25px;
-      color: white; }
+  background: #272a31;
+}
+
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar .navbar-nav a {
+  padding-right: 25px;
+  color: white;
+}
 
 .container h2 {
-  font-family: Brush Script MT, Brush Script Std, cursive; }
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
 
 .collapse .nav-item {
   color: #080808;
   padding-right: 30px;
-  font-size: 20px; }
+  font-size: 20px;
+}
+
 .collapse a:active {
-  color: #ff4800 !important; }
+  color: #ff4800 !important;
+}
+
 .collapse .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1rem !important;
-  padding-right: 1rem !important; }
-.collapse .navbar .nav-item.active {
-  border-left: #444 3px solid; }
+  padding-right: 1rem !important;
+}
 
+.collapse .navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item img {
+  height: 700px !important;
+}
+
+.carousel-caption p {
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+#cards {
+  background: url(../images/p1.jpg);
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=style.css.map */

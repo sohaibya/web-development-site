@@ -37,3 +37,22 @@
     border-left: #444 3px solid;
   }
 }
+
+.carousel-item {
+  img {
+    height: 700px !important;
+  }
+}
+
+.carousel-caption {
+  p {
+    font-family: cursive;
+    font-size: 2rem;
+  }
+}
+
+#cardss {
+  position: relative;
+  background: url(../images/p1.jpg);
+  background-size: cover;
+}
