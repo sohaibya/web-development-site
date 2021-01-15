@@ -47,7 +47,7 @@
 
 .cardss {
   position: relative;
-  background: url(../images/new-bg.jpg);
+  background: url(../images/bg-11.jpg);
   min-height: 200px;
   margin-left: 16px;
   margin-right: 16px;
@@ -61,8 +61,12 @@
   font-family: fantasy !important;
 }
 
+.Authors {
+  background-color: rgba(255, 17, 0, 0.233) !important;
+}
+
 .Authors .line {
-  color: orange !important;
+  color: #920d0d !important;
   width: 40px !important;
   border-top: 5px !important;
 }
@@ -80,7 +84,13 @@
   color: #ec5242 !important;
 }
 
-.footer .container-fluid {
-  min-height: 400px !important;
+.footer-1 .f-heading {
+  margin-left: 300px !important;
+  font: 4rem sans-serif !important;
+}
+
+.footer-1 .container h2 {
+  font-family: sans-serif !important;
+  font-size: 3rem !important;
 }
 /*# sourceMappingURL=style.css.map */
