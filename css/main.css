@@ -9,6 +9,12 @@
 .navbar .navbar-nav a {
   padding-right: 25px;
   color: white;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-nav a:active {
+  color: #ff4800 !important;
+  text-decoration: none !important;
 }
 
 .container h2 {
@@ -21,10 +27,6 @@
   font-size: 20px;
 }
 
-.collapse a:active {
-  color: #ff4800 !important;
-}
-
 .collapse .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -34,6 +36,7 @@
 
 .collapse .navbar .nav-item.active {
   border-left: #444 3px solid;
+  text-decoration: none;
 }
 
 .carousel-item img {
@@ -61,10 +64,6 @@
   font-family: fantasy !important;
 }
 
-.Authors {
-  background-color: red !important;
-}
-
 .Authors .line {
   color: #920d0d !important;
   width: 40px !important;
@@ -76,13 +75,11 @@
 }
 
 .Authors .card {
-  background-color: rgba(255, 17, 0, 0.233) !important;
   border: 0 !important;
 }
 
 .Authors .card-body p {
   font-size: 1.5rem !important;
-  color: #ec5242 !important;
 }
 
 .footer-1 .f-heading {
@@ -94,4 +91,3 @@
   font-family: sans-serif !important;
   font-size: 3rem !important;
 }
-/*# sourceMappingURL=main.css.map */

@@ -7,6 +7,12 @@
     a {
       padding-right: 25px;
       color: white;
+      text-decoration: none !important;
+    }
+
+    a:active {
+      color: rgb(255, 72, 0) !important;
+      text-decoration: none !important;
     }
   }
 }
@@ -22,10 +28,6 @@
     font-size: 20px;
   }
 
-  a:active {
-    color: rgb(255, 72, 0) !important;
-  }
-
   .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -35,6 +37,7 @@
 
   .navbar .nav-item.active {
     border-left: #444 3px solid;
+    text-decoration: none;
   }
 }
 
@@ -68,8 +71,6 @@
 }
 
 .Authors {
-  background-color: red !important;
-
   .line {
     color: #920d0d !important;
     width: 40px !important;
@@ -81,13 +82,11 @@
   }
 
   .card {
-    background-color: rgba(255, 17, 0, 0.233) !important;
     border: 0 !important;
   }
 
   .card-body p {
     font-size: 1.5rem !important;
-    color: #ec5242 !important;
   }
 }
 
