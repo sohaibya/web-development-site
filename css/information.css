@@ -1,0 +1,37 @@
+.navbar {
+  background: #272a31;
+}
+
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar .navbar-nav a {
+  padding-right: 25px;
+  color: white;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-nav a:active {
+  color: #ff4800 !important;
+  text-decoration: none !important;
+}
+
+.sect1.row {
+  border: 5px solid #9b0b0b !important;
+  border-radius: 40px !important;
+}
+
+.table1.table {
+  max-width: 500px;
+}
+
+.cards .card {
+  max-width: 300px;
+  border: 0;
+}
+
+.cards .card .fit-picture {
+  height: 300px;
+  width: 200px;
+}
