@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACE,MADI,CACJ,EAAE,CAAC;EACD,WAAW,EAAE,+BAA+B;CAC7C;;AAHH,AAKE,MALI,CAKJ,SAAS,CAAC;EACR,WAAW,EAAE,gBAAgB;CAC9B",
-    "sources": [
-        "informaton.scss"
-    ],
-    "names": [],
-    "file": "informaton.css"
-}
