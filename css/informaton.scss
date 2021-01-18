@@ -12,3 +12,13 @@
     border-radius: 40px;
   }
 }
+
+.cards {
+  .col-sm-2 {
+    max-width: 10% !important;
+  }
+
+  .col-sm-4 {
+    max-width: 20% !important;
+  }
+}
