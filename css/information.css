@@ -17,6 +17,23 @@
   text-decoration: none !important;
 }
 
+.container h2 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.collapse .nav-item {
+  color: #080808;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.collapse .navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
 .sect1.row {
   border: 5px solid #9b0b0b !important;
   border-radius: 40px !important;
@@ -34,4 +51,14 @@
 .cards .card .fit-picture {
   height: 300px;
   width: 200px;
+}
+
+.footer-1 .f-heading {
+  margin-left: 300px !important;
+  font: 4rem sans-serif !important;
+}
+
+.footer-1 .container h2 {
+  font-family: sans-serif !important;
+  font-size: 3rem !important;
 }
