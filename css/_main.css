@@ -65,21 +65,35 @@
   font-size: 30px;
 }
 
-.section__more-stories .more-stories {
+.section__more .more-stories {
   margin-left: 100px;
 }
 
-.section__more-stories img {
+.content_teach {
+  width: 80%;
+  margin: auto;
+}
+
+.content_teach h1 {
+  color: #ec5242 !important;
+}
+
+.content_teach img {
+  width: 30%;
+  height: 20%;
+}
+
+.section__more img {
   width: 100px;
   height: 100px;
 }
 
-.section__more-stories a {
+.section__more a {
   font-size: 15px;
   color: #ec5242;
 }
 
-.section__more-stories h5 {
+.section__more- h5 {
   font-size: small;
 }
 
@@ -124,4 +138,10 @@
 
 .foot-2 {
   font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .noclass {
+    display: none;
+  }
 }
