@@ -6,6 +6,11 @@
   margin-right: 100px;
 }
 
+.noclass a {
+  font-size: 15px;
+  color: #ec5242;
+}
+
 .navbar .navbar-nav a {
   padding-right: 25px;
   color: white;
@@ -24,7 +29,8 @@
 .collapse .nav-item {
   color: #080808;
   padding-right: 30px;
-  font-size: 20px;
+
+  /* font-size: 20px; */
 }
 
 .collapse .navbar .nav-link {
@@ -83,14 +89,9 @@
   height: 20%;
 }
 
-.section__more img {
+.noclass img {
   width: 100px;
   height: 100px;
-}
-
-.section__more a {
-  font-size: 15px;
-  color: #ec5242;
 }
 
 .section__more- h5 {
