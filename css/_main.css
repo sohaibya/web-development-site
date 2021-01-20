@@ -29,8 +29,6 @@
 .collapse .nav-item {
   color: #080808;
   padding-right: 30px;
-
-  /* font-size: 20px; */
 }
 
 .collapse .navbar .nav-link {
@@ -106,36 +104,6 @@
 .card1.card {
   border: none;
 }
-
-/* .cards .card {
-  height: 150px;
-  width: 250px;
-} */
-
-/* .Authors .line {
-  color: #920d0d !important;
-  width: 40px !important;
-  border-top: 5px !important;
-}
-.Authors .row {
-  margin-left: 100px;
-}
-.Authors .card {
-  border: 0 !important;
-}
-.Authors .card-body p {
-  font-size: 1.5rem !important;
-} */
-
-/* .footer-1 .f-heading {
-  margin-left: 300px !important;
-  font: 4rem sans-serif !important;
-} */
-
-/* .footer-1 .container h2 {
-  font-family: sans-serif !important;
-  font-size: 3rem !important;
-} */
 
 .foot-2 {
   font-size: 25px;
