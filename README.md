@@ -23,13 +23,8 @@ Elite-Coders is a challenge-based training platform for programmers where you ca
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-    - clone the repository and install it on your local Machine
-      - git clone https://github.com/chrystalme/concert-hub.git
-    - change directory
-      - cd concert-hub  
-    - make sure you install bootstrap using 'npm install bootstrap@next'
-
+To get a local copy up please follow the link given below.
+      - git clone https://github.com/sohaibya/web-development-site/tree/development
 
 ### Prerequisites
     - Bootstrap 5
@@ -39,8 +34,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 ** Muhammad Sohaib Asif**
 
-- GitHub: [@chrystalme](https://github.com/sohaibya)
-- Twitter: [@afam_ifeanyi](https://twitter.com/sohaibasif2019)
+- GitHub: [@Sohaib-Asif](https://github.com/sohaibya)
+- Twitter: [@Sohaib-Asif](https://twitter.com/sohaibasif2019)
 
 
 
