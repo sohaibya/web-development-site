@@ -47,10 +47,6 @@ html body {
   text-decoration: none !important;
 }
 
-/* .container h2 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-} */
-
 .collapse .nav-item {
   color: #080808 !important;
   padding-right: 30px;
@@ -101,18 +97,13 @@ html body {
 }
 
 .cardss p {
-  /* font-size: 30px; */
   font-family: 'Lato', sans-serif;
   color: #ec5242 !important;
 }
 
-.section__more .more-stories {
-  margin-left: 100px;
-}
-
 .noclass .more-stories {
-  width: 600px !important;
-  margin-left: 100px;
+  width: 40% !important;
+  margin: auto;
 }
 
 .noclass h5 {
@@ -130,12 +121,12 @@ html body {
 
 .content_teach img {
   width: 30%;
-  height: 20%;
+  height: 15%;
 }
 
 .noclass img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 90%;
 }
 
 .section__more- h5 {
@@ -172,6 +163,11 @@ html body {
 
 .box1 h3 img {
   align-items: center;
+}
+
+.navbar .logo-adjust img {
+  width: 40% !important;
+  height: 15% !important;
 }
 
 .box2 {

@@ -4,7 +4,7 @@ html body {
 
 .line {
   margin: auto;
-  border-top: 3px solid  #ec5242;
+  border-top: 3px solid #ec5242;
   width: 52px;
 }
 
@@ -67,11 +67,6 @@ html body {
   margin-left: 49%;
 }
 
-/* .footer-1 .f-heading {
-  margin-left: 300px !important;
-  font: 4rem sans-serif !important;
-} */
-
 .footer-1 .container h2 {
   font-family: sans-serif !important;
   font-size: 3rem !important;
@@ -100,4 +95,9 @@ html body {
   flex: 3;
   margin-top: 10px !important;
   margin-left: 25px;
+}
+
+.navbar .logo-adjust img {
+  width: 40% !important;
+  height: 15% !important;
 }

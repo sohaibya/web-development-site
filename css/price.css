@@ -29,10 +29,6 @@ html body {
   text-decoration: none !important;
 }
 
-/* .container h2 {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-} */
-
 .collapse .nav-item {
   color: #080808;
   padding-right: 30px;
@@ -84,4 +80,9 @@ html body {
   flex: 3;
   margin-top: 10px !important;
   margin-left: 25px;
+}
+
+.navbar .logo-adjust img {
+  width: 40% !important;
+  height: 15% !important;
 }
