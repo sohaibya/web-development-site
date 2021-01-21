@@ -1,9 +1,25 @@
-.navbar {
-  background: #272a31;
+html body {
+  font-family: 'Lato', sans-serif;
 }
 
-.navbar .navbar-nav {
-  margin-right: 100px;
+.line {
+  margin: auto;
+  border-top: 3px solid  #ec5242;
+  width: 52px;
+}
+
+.navbar {
+  background: #272a31;
+  color: #d3d3d3 !important;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: #d3d3d3 !important;
+}
+
+.logo-adjust h2 {
+  color: #272a31 !important;
 }
 
 .noclass a {
@@ -11,10 +27,19 @@
   color: #ec5242;
 }
 
+.navbar .collapse a {
+  color: #272a31 !important;
+}
+
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+
 .navbar .navbar-nav a {
   padding-right: 25px;
-  color: white;
+  color: #272a31;
   text-decoration: none !important;
+  font-size: medium;
 }
 
 .navbar .navbar-nav a:active {
@@ -27,7 +52,7 @@
 } */
 
 .collapse .nav-item {
-  color: #080808;
+  color: #080808 !important;
   padding-right: 30px;
 }
 
@@ -69,8 +94,29 @@
   font-size: 30px;
 }
 
+.cardss h2 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #d3d3d3 !important;
+}
+
+.cardss p {
+  /* font-size: 30px; */
+  font-family: 'Lato', sans-serif;
+  color: #ec5242 !important;
+}
+
 .section__more .more-stories {
   margin-left: 100px;
+}
+
+.noclass .more-stories {
+  width: 600px !important;
+  margin-left: 100px;
+}
+
+.noclass h5 {
+  color: #272a31;
 }
 
 .content_teach {
@@ -107,6 +153,31 @@
 
 .foot-2 {
   font-size: 25px;
+}
+
+.container-2 {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.container-2 div {
+  padding: 10px;
+}
+
+.box1 {
+  margin-left: 75px;
+  flex: 1;
+}
+
+.box1 h3 img {
+  align-items: center;
+}
+
+.box2 {
+  flex: 3;
+  margin-top: 10px !important;
+  margin-left: 25px;
 }
 
 @media (max-width: 768px) {
