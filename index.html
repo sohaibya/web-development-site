@@ -1,0 +1,404 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+      <link rel="stylesheet" href="css/_main.css">
+      <title>Document</title>
+    </head>
+
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg d-none d-lg-block">
+          <ul class="navbar-nav justify-content-end ">
+            <li class="nav-item">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#">English <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li class="nav-item text-decoration: none">
+              <a href="# ">My Page </a>
+            </li>
+            <li>
+              <a href="#" class="mr-md-5">Logout</a>
+            </li>
+          </ul>
+
+        </nav>
+        <nav class="navbar navbar-expand-sm navbar-expand-md navbar-light bg-light ">
+          <div class="container">
+            <div class="logo-adjust d-none d-md-block d-lg-block  col-lg-4  "><a href="#">
+                <img src="images/code.png " alt="img">
+              </a></div>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active ">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="_price.html" class="nav-link">Price</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="information.html" class="nav-link">Information</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#" class="nav-link">Course</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- Slider-section-->
+        <section id="slider">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-fluid">
+                  <img class="d-block w-100  " src="images/pic1.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Front-End developer</h2>
+                    <p class="text-primary"> Most good programmers do programming not because they expect to get paid or
+                      get adulation by the public, but it is fun to program.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <img class="d-block w-100" src="images/pic2.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-light">Back-End developer</h2>
+                    <p class="text-primary">One man’s crappy software is another man’s full time job.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-fluid">
+                  <img class="d-block w-100" src="images/pic3.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-light">Full stack developer</h2>
+                    <p class="text-primary"> Perfection [in design] is achieved, not when there is nothing more to add,
+                      but when there is noting left to take away.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev d-sm-none" href="#carouselExampleIndicators" role="button"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next d-sm-none" href="#carouselExampleIndicators" role="button"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- slider section ending -->
+        <!-- card section -->
+        <section class="cardss ">
+          <h1 class="text-light text-center mb-2"> Master these languages with Elite-coders</h1>
+          <div class="container-fluid">
+
+            <div class="row ">
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-js-square fa-10x mb-2 mt-2"></i>
+                <h2 class="text-light">Java-Script</h2>
+                <p class="text-warning">JavaScript is a text-based programming language used both on the <br>client-side
+                  and server-side that allows you to make web pages <br> interactive..</p>
+              </div>
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-react fa-10x mb-2 mt-2"></i>
+
+                <h2 class="text-light">React.Js</h2>
+                <p class="text-warning">React is an open-source, front end, JavaScript library for building <br> user
+                  interfaces or UI components. It is maintained by <br> Facebook and a community of individual
+                  developers
+                  and companies.</p>
+              </div>
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-node plus fa-10x mb-2 mt-2"></i>
+                <h2 class="text-light">Node.Js</h2>
+                <p class="text-warning">Node.js is an open-source, cross-platform, back-end JavaScript <br> runtime
+                  environment that executes JavaScript code outside <br> a web browser.</p>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="container-fluid">
+
+            <div class="row">
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-python fa-10x mb-2 mt-2"></i>
+                <h2 class="text-light">Python</h2>
+                <p class="text-warning">Python is a text-based programming language used both on the <br>client-side and
+                  server-side that allows you to make web pages <br> interactive..</p>
+              </div>
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-vuejs fa-10x mb-2 mt-2"></i>
+
+                <h2 class="text-light">Vue.Js</h2>
+                <p class="text-warning">Vue.Js is an open-source, front end, JavaScript library for building <br> user
+                  interfaces or UI components. It is maintained by <br> Facebook and a community of individual
+                  developers
+                  and companies.</p>
+              </div>
+              <div class="col-md-4 mb-4 text-center">
+                <i class="fab fa-angular fa-10x mb-2 mt-2"></i>
+                <h2 class="text-light">Node.Js</h2>
+                <p class="text-warning">Node.js is an open-source, cross-platform, back-end JavaScript <br> runtime
+                  environment that executes JavaScript code outside <br> a web browser.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="heading mt-4">
+          <h1 class="text-center text-bold">Meet our teachers
+           
+          </h1>
+          <p class="line mt-3"></p>
+        </div>
+
+        <!-- section starts -->
+        <section class="">
+          <div class="content_teach d-flex flex-column d-lg-none d-md-none ">
+            <div class=" d-flex flex-row justify-content-center align-item-center">
+              <img src="images/re.jpg" alt="Image 1">
+              <div class="ml-2">
+                <h3 class="alpa">Lorem, ipsum</h3>
+                <h3>UX design focuses on the interaction between real human.
+                </h3>
+                <p class="card-text mb-1"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+              </div>
+            </div>
+            <div class="d-flex flex-row my-4">
+              <img src="images/re.jpg" alt="Image 1">
+              <div class="ml-2">
+                <h3 class="alpha">Lorem, ipsum</h3>
+                <h3>UX design focuses on the interaction between real human.
+                </h3>
+                <p class="card-text mb-1"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- section ends -->
+        <section class="noclass">
+          <div class="row content__2 container-fluid justify-content-between  my-3">
+            <div class="d-flex mt-2 more-stories  pb-3">
+              <div>
+                <a href="#">
+                  <img src="images/g6.jfif" alt="nop" class=" fit-picture1 img-fluid"> </a>
+              </div>
+              <div class="cards pl-3">
+                <h3><a class="text-decoration-none " href="#">
+                    Lanaaa </a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products. 
+                </h5>
+              </div>
+            </div>
+            <div class="d-flex mt-2 more-stories  pb-3">
+              <div>
+                <a href="#">
+                  <img src="images/g8.jfif" alt="ok" class=" fit-picture1 img-fluid"></a>
+              </div>
+              <div class=" cards pl-3">
+
+                <h3><a class="text-decoration-none " href="#">
+                    Biden</a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products
+                </h5>
+              </div>
+            </div>
+            <div class="d-flex mt-2 more-stories  pb-3">
+              <div>
+                <a href="#">
+                  <img src="images/g1.jfif" alt="ok" class=" fit-picture1 img-fluid"></a>
+              </div>
+              <div class="cards pl-3">
+                <h3><a class="text-decoration-none " href="#">
+                    Biden</a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products
+                </h5>
+              </div>
+            </div>
+
+            <div class="d-flex  mt-2  more-stories pb-3">
+              <div>
+                <a href="#">
+
+                  <img src="images/g6.jfif" alt="ok" class=" fit-picture1 img-fluid"> </a>
+
+              </div>
+              <div class="cards pl-3">
+                <h3><a class="text-decoration-none " href="#">
+                    Jamesss </a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products
+                </h5>
+              </div>
+            </div>
+            <div class="d-flex mt-2  more-stories pb-3">
+              <div>
+                <a href="#">
+                  <img src="images/g2.jfif" alt="ok" class=" fit-picture1 img-fluid"> </a>
+              </div>
+              <div class=" cards pl-3">
+                <h3><a class="text-decoration-none " href="#">
+                    Oliver</a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products
+                </h5>
+              </div>
+            </div>
+            <div class="d-flex  mt-2 more-stories pb-3">
+              <div>
+                <a href="#">
+
+                  <img src="images/g1.jfif" alt="ok" class=" fit-picture1 img-fluid"></a>
+
+              </div>
+              <div class=" cards pl-3">
+                <h3><a class="text-decoration-none " href="#">
+                    Marcus </a>
+                </h3>
+                <h5>
+                  UX design focuses on the interaction between <br> users (like you and me) and everyday
+                  products
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+
+      <!-- Footer section starts -->
+      <footer>
+        <section class=" footer-1 bg-dark py-5">
+          <div class="container p-4">
+            <h2 class=" f-heading text-danger text-center">Css-Desginer
+
+            </h2>
+            <p class="line mt-3"></p>
+            <div class="row align-item-center justify-content-c text-center">
+              <div class="col-sm-4 col-lg-2 mx-2">
+                <div class="flex d-flex ">
+                  <div class="footer-icons">
+                    <h2 class="text-white my-3 text-bold ">mozilla</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-2 mx-2">
+                <div class="flex d-flex ">
+                  <div class="footer-icons">
+                    <h2 class="text-secondary my-3">Google</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-2 mx-2">
+                <div class="flex d-flex ">
+                  <div class="footer-icons">
+                    <h2 class="text-white my-3">NAVER</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-2 mx-2">
+                <div class="flex d-flex ">
+                  <div class="footer-icons">
+                    <h2 class=" text-secondary my-3">Yahoo</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-2 mx-2">
+                <div class="flex d-flex ">
+                  <div class="footer-icons">
+                    <h2 class="text-white my-3">Airbnb</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="container-2 ">
+          <div class="box1 align-item-center">
+            <img src="images/code.png "  alt="img">
+           
+          </div>
+          <div class="box2 text-center py-5">
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos numquam doloremque earum magni temporibus.</p>
+          </div>
+        </div>
+        <div class=" foot-2 text-center text-dark p-3 m-2 bg-light ">
+
+          <a class="text-dark m-3 text-bold ml-5 text-center" href="#">Elite-coders.com 2020
+           
+          </a>
+          <p class="line mt-1"></p>
+        </div>
+      </footer>
+      <!-- Footer section ends -->
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+      </script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+      </script>
+    </body>
+
+    </html>

@@ -1,0 +1,88 @@
+html body {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  margin: auto;
+  border-top: 3px solid  #ec5242;
+  width: 52px;
+}
+
+.navbar {
+  background: #272a31;
+}
+
+.navbar .navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar .navbar-nav a {
+  padding-right: 25px;
+  color: white;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-nav a:active {
+  color: #ff4800 !important;
+  text-decoration: none !important;
+}
+
+.collapse .nav-item {
+  color: #080808;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.collapse .navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.collapse .navbar .nav-item.active {
+  border-left: #444 3px solid;
+  text-decoration: none;
+}
+
+.footer-1 .container h2 {
+  font-family: sans-serif !important;
+  font-size: 3rem !important;
+  width: 100%;
+}
+
+.foot-2 {
+  font-size: 25px;
+}
+
+.container-2 {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.container-2 div {
+  padding: 10px;
+}
+
+.box1 {
+  margin-left: 75px;
+  flex: 1;
+}
+
+.box1 h3 img {
+  align-items: flex-end;
+}
+
+.box2 {
+  flex: 3;
+  margin-top: 10px !important;
+  margin-left: 25px;
+}
+
+.navbar .logo-adjust img {
+  width: 40% !important;
+  height: 15% !important;
+}
